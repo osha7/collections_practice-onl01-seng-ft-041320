@@ -17,3 +17,7 @@ end
     a [1] <=> b [2]
   end                   
 end
+
+def reverse_array(array)
+  array.sort.reverse
+end
