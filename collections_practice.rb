@@ -23,3 +23,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
+  array.each { |array| array.delete(array[2]).insert(2 , "$") }
+end
+  
+  
+  
